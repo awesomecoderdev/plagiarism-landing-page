@@ -14,7 +14,7 @@ class Home extends Component {
         /> */}
         {/* <img
         src={"/bg.png"}
-        className='absolute top-0 z-10 w-full pointer-events-none opacity-75'
+        className='absolute top-0 z-10 w-full pointer-events-none opacity-50'
         /> */}
         <header className="bg-primary-50 font-poppins">
           <div className="container py-10 ">

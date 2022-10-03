@@ -6,7 +6,7 @@ class Nav extends Component {
     render() {
         return (
             <Fragment>
-                <nav className="relative w-full bg-white p-5 shadow-sm rounded-2xl flex justify-between items-center">
+                <nav className="relative w-full bg-white p-5  rounded-2xl flex justify-between items-center">
                     <div className='relative px-12 flex items-center justify-center'>
                         <Image
                             src={"/apple-touch-icon.png"}
