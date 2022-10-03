@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { Component, Fragment } from 'react';
 import { BeakerIcon  } from '@heroicons/react/24/outline'
+import Image from 'next/image';
 
 class Hero extends Component {
     render() {
@@ -14,6 +15,14 @@ class Hero extends Component {
                         <p className="my-3 text-lg font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum possimus, nobis officia pariatur aliquid porro.
                         </p>
+                        <div className='absolute transform rotate-[60deg] right-0 bottom-14'>
+                            <Image
+                                src={"/arrow.png"}
+                                alt="Picture of the author"
+                                width={140}
+                                height={140}
+                            />
+                        </div>
                         <div className="relative flex py-10">
                             <Link href="#" >
                                 <a className="bg-primary-500 text-slate-600 text-lg font-semibold py-3 rounded-xl px-10">
@@ -21,9 +30,12 @@ class Hero extends Component {
                                 </a>
                             </Link>
                             <Link href="#" >
-                                <a className="text-slate-600 text-lg font-semibold py-3 px-10 flex justify-between">
-                                <BeakerIcon className="h-6 w-6 text-blue-500"/>
-                                Play Intro
+                                <a className="text-slate-600 text-lg font-semibold py-3 px-10 flex items-center justify-between">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-8 mr-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                                    </svg>
+                                    <span>Play intro</span>
                                 </a>
                             </Link>
                         </div>
