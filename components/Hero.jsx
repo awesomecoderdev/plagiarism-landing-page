@@ -10,10 +10,10 @@ class Hero extends Component {
                 <div className="relative w-full grid md:grid-cols-2 grid-cols-1 lg:p-16 p-6 md:gap-0 gap-16">
                     <div className="relative  md:order-1 order-2 ">
                         <h1 className='xl:text-5xl lg:text-4xl xl:leading-[4rem] lg:leading-10 text-3xl text-slate-700  font-semibold'>
-                            Launch a paid chat community in minutes
+                            Launch a AI plagiarism scanner in minutes
                         </h1>
                         <p className="my-3 text-lg font-medium">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum possimus, nobis officia pariatur aliquid porro.
+                           AI will automatically scan all contents of your website and check plagiarism and notify you.
                         </p>
                         <div className='absolute transform rotate-[60deg] right-0  z-10 xl:bottom-14 lg:bottom-16 md:bottom-24 bottom-5 lg:w-28 md:w-20 w-16'>
                             <Image
@@ -57,8 +57,8 @@ class Hero extends Component {
                                 <Image
                                     src={"/svg/search.svg"}
                                     alt="Contents"
-                                    width={140}
-                                    height={40}
+                                    width={180}
+                                    height={60}
                                 />
                             </div> */}
                         </div>
@@ -70,7 +70,7 @@ class Hero extends Component {
 
                         <div className="relative flex justify-end items-center">
                             <div className="w-full h-auto max-w-xs md:ml-4 m-0 bg-white shadow-slate-500 border border-slate-200/50 rounded-2xl p-5">
-                                <h1 className='text-center lg:text-xl md:text-sm text-sm font-semibold text-slate-700'>Connect with your website</h1>
+                                <h1 className='text-center lg:text-xl md:text-sm text-sm font-semibold text-slate-700'>Let's begin with AI</h1>
                                 <p className='text-center lg:text-sm text-xs font-semibold text-slate-500 py-4'>Connect WordPress</p>
                                 <div className="relative flex justify-center items-center w-24 mx-auto">
                                     <Image
@@ -80,7 +80,7 @@ class Hero extends Component {
                                         height={150}
                                     />
                                 </div>
-                                <p className='text-center lg:text-sm text-xs font-semibold text-slate-500 py-1'>Scan contents</p>
+                                <p className='text-center lg:text-sm text-xs font-semibold text-slate-500 py-1'>Scan plagiarism</p>
                                 <div className="relative flex justify-center items-center w-24 mx-auto">
                                     <Image
                                         src={"/svg/content.svg"}
