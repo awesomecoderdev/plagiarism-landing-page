@@ -71,7 +71,7 @@ class Hero extends Component {
                         <div className="relative flex justify-end items-center">
                             <div className="w-full max-w-xs ml-4 bg-white shadow-slate-500 border border-slate-200/50 rounded-2xl h-96 p-5">
                                 <h1 className='text-center text-lg font-semibold text-slate-700'>Connect with your website</h1>
-                                <p className='text-center text-sm font-semibold text-slate-500 py-3'>Start scanning contents</p>
+                                <p className='text-center text-sm font-semibold text-slate-500 py-2'>Start scanning contents</p>
                                 <div className="relative flex justify-center items-center">
                                     <Image
                                         src={"/svg/content.svg"}
@@ -80,12 +80,13 @@ class Hero extends Component {
                                         height={150}
                                     />
                                 </div>
+                                <p className='text-center text-sm font-semibold text-slate-500'>Connect with WordPress</p>
                                 <div className="relative flex justify-center items-center">
                                     <Image
-                                        src={"/svg/security.svg"}
+                                        src={"/svg/wordpress.svg"}
                                         alt="Contents"
-                                        width={120}
-                                        height={120}
+                                        width={150}
+                                        height={150}
                                     />
                                 </div>
                             </div>
