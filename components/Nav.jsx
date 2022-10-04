@@ -21,8 +21,8 @@ class Nav extends Component {
                             <Link href={"#"} >
                                 <a className="text-secondary-50">Home</a>
                             </Link>
-                            <Link href={"#"}>
-                                <a className='text-sm font-semibold'>Solution</a>
+                            <Link href={"#featured"}>
+                                <a className='text-sm font-semibold'>Featured</a>
                             </Link>
                             <Link href={"#"}>
                                 <a className='text-sm font-semibold'>Pricing</a>

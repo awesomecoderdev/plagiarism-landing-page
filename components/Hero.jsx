@@ -7,7 +7,7 @@ class Hero extends Component {
     render() {
         return (
             <Fragment>
-                <div className="relative w-full grid md:grid-cols-2 grid-cols-1 lg:p-16 p-6 md:gap-0 gap-20">
+                <div className="relative w-full grid md:grid-cols-2 grid-cols-1 lg:p-16 p-6 md:gap-0 gap-16">
                     <div className="relative  md:order-1 order-2 ">
                         <h1 className='xl:text-5xl lg:text-4xl xl:leading-[4rem] lg:leading-10 text-3xl text-slate-700  font-semibold'>
                             Launch a paid chat community in minutes
@@ -41,7 +41,7 @@ class Hero extends Component {
                         <div className="h-4 w-4 absolute md:left-36 left-0 z-10 rounded-full bg-orange-400 pointer-events-none"></div>
                         <div className="transform -rotate-12 h-6 w-6 md:right-10 right-0 z-10  top-0 absolute bg-orange-400 pointer-events-none"></div>
                         <div className="transform -rotate-45 h-4 w-4 right-12 top-32 absolute opacity-70 bg-sky-400 z-10 pointer-events-none"></div>
-                        <div className="transform md:scale-0 scale-50 overflow-hidden -rotate-12 pointer-events-none absolute md:-left-0 -left-14 md:top-44 top-28 z-10 text-center bg-white border border-slate-200/50 w-44 h-24 rounded-2xl shadow-xl">
+                        <div className="transform lg:scale-100 md:scale-75 scale-50 overflow-hidden -rotate-12 pointer-events-none absolute xl:left-10 lg:-left-5 md:-left-8 -left-14 md:top-44 top-28 z-10 text-center bg-white border border-slate-200/50 w-44 h-24 rounded-2xl shadow-xl">
                             <h2 className='text-sm p-2 font-semibold text-slate-500'>Completed</h2>
                             <div className="flex-1 space-y-2 py-1 p-4">
                                 <div className="h-2 bg-slate-100 rounded"></div>
