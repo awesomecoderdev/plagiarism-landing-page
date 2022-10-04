@@ -14,7 +14,7 @@ class Nav extends Component {
                             width={30}
                             height={30}
                         />
-                        <span className="ml-1 text-2xl font-semibold text-black">plagiarism</span>
+                        <span className="ml-1 text-2xl font-semibold text-slate-700">WPplagiarism</span>
                     </div>
                     <div className="relative px-12 flex  items-center font-medium">
                         <div className="relative flex space-x-5 pr-5 border-r-2 border-slate-400/40">
