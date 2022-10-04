@@ -6,7 +6,7 @@ class Featured extends Component {
     render() {
         return (
             <Fragment>
-                <section id="featured" className='relative bg-white font-poppins pb-20'>
+                <section id="featured" className='relative bg-white font-poppins'>
                     <div className="container">
                         <h1 className='text-center text-slate-700 xl:text-5xl lg:text-4xl sm:text-2xl text-3xl md:py-10 py-2 font-semibold'>Build real-time community</h1>
                         <div className="relative grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-8 py-10 lg:px-10 md:px-8 px-5">
@@ -61,6 +61,9 @@ class Featured extends Component {
                         </div>
                     </div>
                 </section>
+                <div className="relative pt-32 bg-white overflow-hidden">
+                    <div className="absolute transform -rotate-3 -bottom-24 w-screen h-40 bg-primary-50 "></div>
+                </div>
             </Fragment>
         );
     }
