@@ -6,9 +6,9 @@ class Featured extends Component {
     render() {
         return (
             <Fragment>
-                <section className='relative bg-white font-poppins'>
+                <section className='relative bg-white font-poppins pb-20'>
                     <div className="container">
-                        <h1 className='text-center text-slate-700 text-4xl py-10 font-semibold'>Build real-time community</h1>
+                        <h1 className='text-center text-slate-700 xl:text-5xl lg:text-4xl text-3xl md:py-10 py-2 font-semibold'>Build real-time community</h1>
                         <div className="relative grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-8 py-10 lg:px-10 md:px-8 px-5">
                             <div className="relative mx-auto w-full md:p-8 p-5 border border-primary-500/90 cursor-pointer duration-150 transition-all hover:-translate-y-2 hover:shadow-2xl rounded-lg">
                                 <div className="relative flex justify-center items-center">

@@ -16,7 +16,7 @@ class Nav extends Component {
                         />
                         <span className="ml-1 text-2xl font-semibold text-slate-700">WPplagiarism</span>
                     </div>
-                    <div className="relative px-12 flex  items-center font-medium">
+                    <div className="relative px-12 items-center font-medium lg:flex hidden">
                         <div className="relative flex space-x-5 pr-5 border-r-2 border-slate-400/40">
                             <Link href={"#"} >
                                 <a className="text-secondary-50">Home</a>
