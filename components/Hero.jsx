@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { Component, Fragment } from 'react';
-import { PlayCircleIcon  } from '@heroicons/react/24/outline'
+import { PlayCircleIcon, ShieldCheckIcon  } from '@heroicons/react/24/outline'
 import Image from 'next/image';
 
 class Hero extends Component {
@@ -42,7 +42,7 @@ class Hero extends Component {
                         <div className="transform -rotate-12 h-6 w-6 md:right-10 right-0 z-10  top-0 absolute bg-orange-400 pointer-events-none"></div>
                         <div className="transform -rotate-45 h-4 w-4 right-12 top-32 absolute opacity-70 bg-sky-400 z-10 pointer-events-none"></div>
                         <div className="transform lg:scale-100 md:scale-75 scale-50 overflow-hidden -rotate-12 pointer-events-none absolute xl:left-10 lg:-left-5 md:-left-8 -left-14 md:top-44 top-28 z-10 text-center bg-white border border-slate-200/50 w-44 h-24 rounded-2xl shadow-xl">
-                            <h2 className='text-sm p-2 font-semibold text-slate-500'>Completed</h2>
+                            <h2 className='text-sm p-2 font-semibold text-slate-500 flex justify-center items-center'> <ShieldCheckIcon strokeWidth={2.5} className='w-4 h-4 mr-1' /> Scanned</h2>
                             <div className="flex-1 space-y-2 py-1 p-4">
                                 <div className="h-2 bg-slate-100 rounded"></div>
                                 <div className="space-y-2">
